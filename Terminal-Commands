@@ -1,0 +1,11 @@
+Terminal code
+Move the the docker folder 
+run the below in the terminal '.' is the location of the docker file which is the current folerr the 'hello-world' is the name of the file
+
+docker build -t hello-world .
+
+run the container
+docker run -p 80:80 hello-world
+
+stop the container
+ctl + C 
